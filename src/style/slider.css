@@ -1,0 +1,19 @@
+.swiper-slide img {
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 45%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 19px !important;
+  color: red !important;
+  font-weight: 700;
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: 100%;
+
+}
+

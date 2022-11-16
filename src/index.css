@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+}
+
+.parent_rotate:hover .rotate_180{
+    transform: rotate(180deg);
+}
+.parent_rotate{
+    color: gray;
+}
+.parent_rotate:hover{
+    color: black;
+}
+.dropdown{
+    width: 260px;
+    height: 470px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -10px;
+    z-index: 10;
+}
+.chennai{
+    margin-left: 10vw;
+
+}
+.delhi{
+    margin-left: 20.3vw;
+
+}
+.gurgaon{
+    margin-left: 30vw;
+
+}
+.hydrabad{
+    margin-left: 41vw;
+
+}
+.kolkata{
+    margin-left: 52.3vw;
+
+}
+.mumbai{
+    margin-left: 62.9vw;
+
+}
+.noida{
+    margin-left: 73.2vw;
+
+}
+.pune{
+    margin-left: 82.9vw;
+
+}
+.dropdown li{
+    padding: 4px 30px;
+    cursor: pointer;
+    margin: 10px 20px;
+
+}
+.dropdown li:hover{
+    color: rgb(252, 118, 118);
+}
+.banner__input{
+    width: 350px;
+    height: 57px;
+
+}
+.banner__input2{
+    width: 350px;
+    height: 45px;
+    margin-top: 7px;
+}
+.banner__input::placeholder{
+    padding-left: 10px;
+}
+.react-google-flight-datepicker{
+    width: 500px;
+    border-radius: 0px !important;
+}
+.date-picker-input{
+    height: 45px !important;
+}
+.date{
+    outline: none !important;
+}
+.react-google-flight-datepicker .date:focus, .react-google-flight-datepicker .date.is-focus{
+    outline: none !important;
+
+}
+.date-picker{
+    border-radius: 0px !important;
+}
+.banner__button{
+    background-color: #1ab64f;
+    height: 57px;
+    margin-top: -0.6px;
+}
+.banner__button2{
+    background-color: #1ab64f;
+    height: 46px;
+    margin-top: 5px;
+}
+.width__poster__1{
+    width: 85vw;
+}
+.fireIcon{
+    font-size: 50px !important;
+}
+.footer{
+    background-color: #9fa4a7;
+}
+.footer__list ul li{
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.footer__list ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.oyo__hotels{
+    margin-left: 76px;
+}
+.footer__icons img{
+    height: 34px;
+    margin-left: 30px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100%;
+}
+.footer__icons img:hover{
+    background-color: white;
+    transition: all .2s linear;
+}
+.search__filter{
+    max-width: 350px;
+}
+.search__filter input{
+    cursor: pointer;
+}
+iframe{
+ margin-right: -65px;
+ margin-top: 10vh;
+}
+.searchHeader{
+    z-index: 999;
+}
+.starIcon{
+    font-size: 15px !important;
+    color: white;
+    margin-top: -3px;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 19px !important;
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 12px 16px;
+  border-radius: 100%;
+
+}
+.swiper-button-prev::after{
+    margin-left: 40px !important;
+}
+.swiper-button-next::after{
+    margin-right: 40px !important;
+}
+.viewHotelpatti{
+    width: 36rem;
+    background-color: rgb(253, 245, 235);
+    color: orange;
+}
+.viewHotelDescription{
+    width: 40rem;
+}
+.viewHotelCheckIcon{
+    font-size: 15px !important;
+    margin-right: 10px;
+}
+.viewHotelRoomWidth{
+    width: 50rem;
+}
+.viewHotelRoomWidth2{
+    width: 40rem;
+}
+.viewHotelFeedPayCard{
+    width: 23rem;
+    height: 38rem;
+}
+.payCard__button{
+    background-color: rgba(255, 133, 133, 0.5);
+}
+.viewHotelFeed__pencilIcon{
+    font-size: medium !important;
+}
+.moreOffres__button{
+    background-color: rgba(138, 255, 134, 0.2);
+}
+.payButton{
+    background-color: #36ad5e;
+}
+
+.checkIn__container{
+    width: 52rem;
+}
+.signUp{
+    background-image: url("https://assets.oyoroomscdn.com/cmsMedia/b3c9905c-31d1-4349-8594-c07deae6b36d.jpg"),linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2));
+    background-blend-mode: overlay;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.signUp__heading{
+    width: 40rem;
+}
+.signUp__card{
+    width: 30rem;
+    height: 30rem;
+}
